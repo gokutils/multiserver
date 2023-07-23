@@ -85,7 +85,7 @@ func (impl *MultiServer) ServeListener(ctx context.Context, l net.Listener) erro
 		return nil
 	})
 	addr := l.Addr().String()
-	log.Printf("[Server] running open your browser on %s", addr)
+	log.Printf("[Server] running on %s", addr)
 	err := g.Wait()
 	if err != nil && running {
 		return err
