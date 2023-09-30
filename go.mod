@@ -3,6 +3,8 @@ module github.com/gokutils/multiserver
 go 1.20
 
 require (
+	github.com/gokutils/uuid v1.0.0
+	github.com/golang-jwt/jwt v3.2.2+incompatible
 	github.com/improbable-eng/grpc-web v0.15.0
 	github.com/soheilhy/cmux v0.1.5
 	golang.org/x/sync v0.3.0
@@ -14,6 +16,7 @@ require (
 	github.com/desertbit/timer v0.0.0-20180107155436-c41aec40b27f // indirect
 	github.com/gin-gonic/gin v1.9.1 // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/klauspost/compress v1.11.7 // indirect
 	github.com/rs/cors v1.7.0 // indirect
 	github.com/stretchr/testify v1.8.3 // indirect
